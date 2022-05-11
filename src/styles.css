@@ -2,7 +2,31 @@ body {
   font-family: "JetBrains Mono", monospace;
 }
 
+footer {
+  font-size: large;
+}
+.bg-image {
+  background-image: url("/images/home-temescal-canyon.jpg");
+  height: 280px;
+  margin-top: 50px;
+}
+
 .navbar-nav > li {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 15px;
+  }
+  .navbar-brand,
+  .navbar-collapse {
+    font-size: 13px;
+  }
+
+  .bg-image {
+    height: 240px;
+    margin-top: 30px;
+  }
 }
