@@ -1,6 +1,11 @@
 body {
   font-family: "JetBrains Mono", monospace;
 }
+h6 {
+  font-weight: normal;
+  line-height: 25px;
+  color: #9e4c11;
+}
 
 footer {
   font-size: large;
@@ -14,6 +19,12 @@ footer {
 .navbar-nav > li {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.footer-icons {
+  font-size: 20px;
+  padding-bottom: 15px;
+  color: #9e4c11;
 }
 
 /* cropping the svg imgs */
@@ -56,6 +67,11 @@ footer {
     height: 240px;
     margin-top: 30px;
   }
+
+  .intro-text {
+    font-size: 14px;
+  }
+
   .bicycle,
   .hiking-backpack,
   .map,
