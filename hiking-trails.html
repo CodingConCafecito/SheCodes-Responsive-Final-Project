@@ -28,7 +28,155 @@
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Los Hiking Trails</h1>
+    <!--header-->
+    <header>
+      <!--bootstrap NavBar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            >Guía de Frida for Temescal Gateway Park</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <!-- ms-auto will move elem to the right -->
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home 🏠
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="the-park.html">El Parque 🌳</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="hiking-trails.html"
+                  >Rutas de Hiking 🥾</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="annotated-map.html">Mapa Anotado 🗺</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advice.html">Consejo 📝</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Background image -->
+      <div class="p-5 text-center bg-image-park">
+        <div>
+          <div class="d-flex justify-content-center">
+            <div class="text-white">
+              <h1 class="mt-5 pt-1">Los Hiking Trails 🎒</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <br />
+    <!--introduction-->
+    <h6 class="text-center intro-text">
+      Draft: Explain that this page will describe different hiking paths
+    </h6>
+    <br />
+    <!--doodle-->
+    <div class="text-center footer-icons">
+      <i class="fa-solid fa-paw"></i>
+      <i class="fa-solid fa-wind"></i>
+      <i class="fa-solid fa-leaf"></i>
+    </div>
+    <br />
+    <!--responsive grid w/ content-->
+    <div class="container grid">
+      <!-- first row with map -->
+      <div class="row map-rows">
+        <!-- google map row -->
+        <div class="col-md-6 text-center google-map-div">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d13221.582772624693!2d-118.54127782018166!3d34.05936946651658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e2!4m5!1s0x0%3A0xbc08cbef8cdb1d7c!2sTemescal%20Gateway%20Park!3m2!1d34.0534752!2d-118.5286579!4m5!1s0x80c2a3a71209e78b%3A0x82134a9d1766bbec!2sTemescal%20Canyon%20Falls%2C%20Pacific%20Palisades%2C%20CA%2090272!3m2!1d34.0682253!2d-118.5364592!4m5!1s0x80c2a3771c88b5b1%3A0xc36e1af1dcd502c2!2sTemescal%20Gateway%20Park%2C%20Mountains%20Recreation%20%26%20Conservation%20Authority%2C%2015601%20Sunset%20Blvd%2C%20Pacific%20Palisades%2C%20CA%2090272!3m2!1d34.0505017!2d-118.529736!5e0!3m2!1sen!2sus!4v1652855610508!5m2!1sen!2sus"
+            class="google-map"
+            width="450"
+            height="500"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <!-- description row -->
+        <div class="col-md-6 text-center">
+          <p class="section-title">Temescal Canyon Falls</p>
+          <p class="text-secondary">description</p>
+        </div>
+      </div>
+      <!-- second row with map -->
+      <div class="row map-rows">
+        <!-- google map row -->
+        <div class="col-md-6 text-center google-map-div">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d13405.906536762357!2d-118.54241646231678!3d34.06090414343038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e2!4m5!1s0x80c2a37417ee0bd9%3A0xbc08cbef8cdb1d7c!2sTemescal%20Gateway%20Park%2C%2015601%20Sunset%20Blvd%2C%20Pacific%20Palisades%2C%20CA%2090272!3m2!1d34.0534752!2d-118.5286579!4m5!1s0x80c2a3adc6419239%3A0xb529d8e70b807894!2sSkull%20Rock!3m2!1d34.0707601!2d-118.542807!4m5!1s0x80c2a3771c88b5b1%3A0xc36e1af1dcd502c2!2sTemescal%20Gateway%20Park%2C%20Mountains%20Recreation%20%26%20Conservation%20Authority%2C%2015601%20Sunset%20Blvd%2C%20Pacific%20Palisades%2C%20CA%2090272!3m2!1d34.0505017!2d-118.529736!5e0!3m2!1sen!2sus!4v1652855252136!5m2!1sen!2sus"
+            class="google-map"
+            width="450"
+            height="500"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <!-- description row -->
+        <div class="col-md-6 text-center">
+          <p class="section-title">Skull Rock</p>
+          <p class="text-secondary">description</p>
+        </div>
+      </div>
+      <!-- third row with map -->
+      <div class="row">
+        <!-- google map row -->
+        <div class="col-md-6 text-center google-map-div">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d26441.89253772169!2d-118.55491212028032!3d34.06344946072545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e2!4m5!1s0x80c2a3771c88b5b1%3A0xc36e1af1dcd502c2!2sTemescal%20Gateway%20Park%2C%20Mountains%20Recreation%20%26%20Conservation%20Authority%2C%2015601%20Sunset%20Blvd%2C%20Pacific%20Palisades%2C%20CA%2090272!3m2!1d34.0505017!2d-118.529736!4m5!1s0x80c2a24d752bf741%3A0x2102cb76527f90d!2sSplit%20Rock%20Trailhead%20-%20Topanga%20State%20Park!3m2!1d34.076351599999995!2d-118.54621829999999!4m5!1s0x80c2a3771c88b5b1%3A0xc36e1af1dcd502c2!2sTemescal%20Gateway%20Park%2C%20Mountains%20Recreation%20%26%20Conservation%20Authority%2C%2015601%20Sunset%20Blvd%2C%20Pacific%20Palisades%2C%20CA%2090272!3m2!1d34.0505017!2d-118.529736!5e0!3m2!1sen!2sus!4v1652855829204!5m2!1sen!2sus"
+            class="google-map"
+            width="450"
+            height="500"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <!-- description row -->
+        <div class="col-md-6 text-center">
+          <p class="section-title">Split Rock</p>
+          <p class="text-secondary">description</p>
+        </div>
+      </div>
+      <!-- end of grid -->
+    </div>
+    <br />
+    <!--footer-->
+    <footer class="text-center">
+      <a
+        href="https://github.com/CodingConCafecito/SheCodes-Responsive-Final-Project"
+        target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      and 📸 by
+      <a
+        href="https://www.linkedin.com/in/frida-morales-b091b0166/"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+    </footer>
+    <br />
     <!--bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

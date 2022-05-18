@@ -9,12 +9,20 @@ h6 {
 }
 
 footer {
-  font-size: large;
+  font-size: 17px;
 }
 
-.bg-image {
+.bg-image-homepage {
   background-image: url("/images/home-temescal-canyon.jpg");
   height: 280px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.bg-image-park {
+  background-image: url("");
+  height: 280px;
+  width: 100%;
   margin-top: 50px;
 }
 
@@ -33,6 +41,18 @@ footer {
 
 .intro-text {
   padding: 0 20px;
+}
+
+.section-title {
+  margin-bottom: auto;
+}
+
+.google-map-div {
+  padding: 0;
+}
+
+.map-rows {
+  margin-bottom: 55px;
 }
 
 .footer-icons {
@@ -74,7 +94,7 @@ footer {
     font-size: 15px;
   }
 
-  .bg-image {
+  .bg-image-homepage {
     height: 240px;
     margin-top: 30px;
   }
@@ -93,6 +113,12 @@ footer {
   .weather-icon {
     display: none;
   }
+
+  .google-map {
+    width: 320px;
+    height: 300px;
+  }
+
   .grid a {
     display: flex;
     align-items: center;
@@ -101,5 +127,11 @@ footer {
   .grid p {
     text-align: center;
     font-size: 14px;
+  }
+  .section-title {
+    padding-top: 10px;
+  }
+  .map-rows {
+    margin-bottom: 30px;
   }
 }
