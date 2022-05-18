@@ -1,6 +1,7 @@
 body {
   font-family: "JetBrains Mono", monospace;
 }
+
 h6 {
   font-weight: normal;
   line-height: 25px;
@@ -10,20 +11,33 @@ h6 {
 footer {
   font-size: large;
 }
+
 .bg-image {
   background-image: url("/images/home-temescal-canyon.jpg");
   height: 280px;
   margin-top: 50px;
 }
 
+.navbar-light .navbar-brand {
+  color: #235608;
+}
+
+.navbar-brand,
+.navbar-collapse {
+  font-size: 16px;
+}
+
 .navbar-nav > li {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 8px;
+}
+
+.intro-text {
+  padding: 0 20px;
 }
 
 .footer-icons {
   font-size: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 12px;
   color: #9e4c11;
 }
 
@@ -51,10 +65,7 @@ footer {
 @media (max-width: 600px) {
   .navbar-brand,
   .navbar-collapse {
-    font-size: 13px;
-  }
-  .navbar-brand {
-    font-weight: bold;
+    font-size: 14px;
   }
 }
 
@@ -70,6 +81,10 @@ footer {
 
   .intro-text {
     font-size: 14px;
+  }
+
+  .footer-icons {
+    color: #409b0e;
   }
 
   .bicycle,
