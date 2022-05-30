@@ -74,6 +74,7 @@ footer {
 
 /* cropping the svg imgs */
 
+/* homepage svg images */
 .bicycle,
 .hiking-backpack {
   width: 300px;
@@ -90,6 +91,31 @@ footer {
 .weather-icon {
   width: 275px;
   height: 120px;
+  object-fit: cover;
+}
+
+/* park page svg images */
+.walking {
+  width: 270px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.meal {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.party {
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.biker {
+  width: 300px;
+  height: 190px;
   object-fit: cover;
 }
 
