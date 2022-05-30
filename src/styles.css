@@ -119,6 +119,26 @@ footer {
   object-fit: cover;
 }
 
+/* advice page svg images */
+
+.parking {
+  width: 290px;
+  height: 210px;
+  object-fit: cover;
+}
+
+.weather-advice {
+  width: 270px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.hiking-advice {
+  width: 270px;
+  height: 190px;
+  object-fit: cover;
+}
+
 @media (max-width: 600px) {
   .navbar-brand,
   .navbar-collapse {
