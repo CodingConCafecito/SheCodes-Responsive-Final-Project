@@ -85,7 +85,11 @@ footer {
 @media (max-width: 600px) {
   .navbar-brand,
   .navbar-collapse {
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 10px;
   }
 }
 
@@ -95,12 +99,12 @@ footer {
   }
 
   .bg-image-homepage {
-    height: 240px;
+    height: 220px;
     margin-top: 30px;
   }
 
   .intro-text {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .footer-icons {
@@ -126,7 +130,7 @@ footer {
   }
   .grid p {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
   }
   .section-title {
     padding-top: 10px;
