@@ -14,13 +14,24 @@ footer {
 
 .bg-image-homepage {
   background-image: url("/images/home-temescal-canyon.jpg");
-  height: 280px;
-  width: 100%;
-  margin-top: 50px;
 }
 
 .bg-image-park {
-  background-image: url("");
+  background-image: url("/images/park-temescal-canyon.jpg");
+}
+
+.bg-image-trails {
+  background-image: url("/images/trails-temescal-canyon.jpg");
+}
+
+.bg-image-advice {
+  background-image: url("/images/advice-temescal-canyon.jpg");
+}
+
+.bg-image-homepage,
+.bg-image-park,
+.bg-image-trails,
+.bg-image-advice {
   height: 280px;
   width: 100%;
   margin-top: 50px;
@@ -98,7 +109,10 @@ footer {
     font-size: 15px;
   }
 
-  .bg-image-homepage {
+  .bg-image-homepage,
+  .bg-image-park,
+  .bg-image-trails,
+  .bg-image-advice {
     height: 220px;
     margin-top: 30px;
   }
